@@ -50,6 +50,7 @@ dev-dependencies = [
     "esbonio",
     "furo",
     "pytest",
+    "rst-budoux>=0.1.1",
     "sphinx-autobuild",
     "sphinx-intl",
 ]

@@ -52,6 +52,7 @@ dev = [
     { name = "esbonio" },
     { name = "furo" },
     { name = "pytest" },
+    { name = "rst-budoux" },
     { name = "sphinx-autobuild" },
     { name = "sphinx-intl" },
 ]
@@ -66,6 +67,7 @@ dev = [
     { name = "esbonio" },
     { name = "furo" },
     { name = "pytest" },
+    { name = "rst-budoux", specifier = ">=0.1.1" },
     { name = "sphinx-autobuild" },
     { name = "sphinx-intl" },
 ]
@@ -98,6 +100,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b3/ca/824b1195773ce6166d388573fc106ce56d4a805bd7427b624e063596ec58/beautifulsoup4-4.12.3.tar.gz", hash = "sha256:74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051", size = 581181 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b1/fe/e8c672695b37eecc5cbf43e1d0638d88d66ba3a44c4d321c796f4e59167f/beautifulsoup4-4.12.3-py3-none-any.whl", hash = "sha256:b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed", size = 147925 },
+]
+
+[[package]]
+name = "budoux"
+version = "0.6.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3e/d9/80f0cfeea115e89438a28025883d8abfe1726a666cf7da2dc1a2b0940746/budoux-0.6.2.tar.gz", hash = "sha256:f5be01a8585d1e529648c77348510ce4083a513f1c06b57e074515f6560841a6", size = 116453 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a5/13/87b43025f5283a05221054e1db9497707ea8c305a98926aee0e8959961ee/budoux-0.6.2-py3-none-any.whl", hash = "sha256:89a28dea83688372615a92252940ed3d9c3d1fa4ddf6e5d3126c8f760fa7db92", size = 118440 },
 ]
 
 [[package]]
@@ -505,6 +516,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760", size = 131218 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6", size = 64928 },
+]
+
+[[package]]
+name = "rst-budoux"
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "budoux" },
+    { name = "docutils" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d2/9f/1d919762fab79c5ce409949152451675d7d1bba8d161feea1ccf1754ac74/rst_budoux-0.1.1.tar.gz", hash = "sha256:3a773d9201b82b0bdc6c4c93472ed2128d19b0f4a4ae096b32135d365c356e10", size = 552408 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c6/55/707b67e5e109670879b000ee55d5182036f59204a86026df0396e9533a93/rst_budoux-0.1.1-py3-none-any.whl", hash = "sha256:a289cfbd3984e997396b00cc96b70bac99363014ab4e270fcc5c7b4c54ee71ab", size = 9883 },
 ]
 
 [[package]]

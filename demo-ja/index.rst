@@ -2,7 +2,7 @@
 atsphinx-revealjs-rtd
 =====================
 
-Read the Docs 上で管理する sphinx-revealjs製プレゼンテーション
+Read the Docs 上で管理するsphinx-revealjs製プレゼンテーション
 
 機能
 ====

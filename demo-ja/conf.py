@@ -9,6 +9,7 @@ release = __version__
 
 # -- General configuration
 extensions = [
+    "rst_budoux.sphinx",
     "atsphinx.revealjs_rtd",
 ]
 templates_path = ["_templates"]
@@ -40,3 +41,13 @@ revealjs_css_files = [
     "revealjs/plugin/highlight/zenburn.css",
 ]
 revealjs_notes_from_comments = True
+
+# -- Options for extensions
+# rst_budoux.sphinx
+budoux_separator = "<wbr>"
+budoux_additional_style = """
+body {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+}
+"""
