@@ -3,13 +3,12 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "build": "node build-plugin.js"
+    "build:umd": "cd src/atsphinx/revealjs_rtd/static/atsphinx-revealjs-rtd && rollup --compact -n RevealRTD -f umd -o rtd.js plugin.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esbuild": "^0.24.0",
-    "esbuild-plugin-umd-wrapper": "^3.0.0"
+    "rollup": "^4.24.0"
   }
 }
