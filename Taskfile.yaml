@@ -1,5 +1,9 @@
 version: '3'
 
+includes:
+  docs: './docs'
+  demo-ja: './demo-ja'
+
 vars:
   # If you run bare environment or activated venv, set '' (blank string)
   RUN_PYTHON: 'uv run'
@@ -25,6 +29,7 @@ tasks:
     cmds:
       - 'age {{.LEVEL}}'
       - 'uv sync'  # To write out as lock-file
-
-includes:
-  docs: './docs'
+  build-demo:
+    desc: 'Generate demo presentation'
+    cmds:
+      - task: 'demo-ja:build-revealjs'
