@@ -48,6 +48,7 @@ dependencies = [
 [package.dev-dependencies]
 dev = [
     { name = "atsphinx-mini18n" },
+    { name = "beautifulsoup4" },
     { name = "esbonio" },
     { name = "furo" },
     { name = "pytest" },
@@ -61,6 +62,7 @@ requires-dist = [{ name = "sphinx-revealjs", specifier = ">=3" }]
 [package.metadata.requires-dev]
 dev = [
     { name = "atsphinx-mini18n" },
+    { name = "beautifulsoup4", specifier = ">=4.12.3" },
     { name = "esbonio" },
     { name = "furo" },
     { name = "pytest" },
