@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: atsphinx-revealjs-rtd 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-17 00:41+0900\n"
+"POT-Creation-Date: 2024-10-17 03:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Kazuya Takei <myself@attakei.net>\n"
 "Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -22,25 +22,29 @@ msgstr ""
 
 #: ../../guide.rst:3
 msgid "User guide"
-msgstr ""
+msgstr "利用ガイド"
 
 #: ../../guide.rst:6
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
-#: ../../guide.rst:8 ../../guide.rst:13 ../../guide.rst:18
-msgid "Todo"
-msgstr ""
+#: ../../guide.rst:8
+msgid "You need install and register package."
+msgstr "パッケージのインストールと拡張の登録が必要です。"
 
-#: ../../guide.rst:8 ../../guide.rst:13 ../../guide.rst:18
-msgid "Write it"
-msgstr ""
-
-#: ../../guide.rst:11
+#: ../../guide.rst:22
 msgid "Usage"
-msgstr ""
+msgstr "使用法"
 
-#: ../../guide.rst:16
+#: ../../guide.rst:24
+msgid "You can use it without especially settings exclude register."
+msgstr "この拡張は、登録以外の追加作業なしに使用できます。"
+
+#: ../../guide.rst:31
 msgid "Configuration"
-msgstr ""
+msgstr "設定"
+
+#: ../../guide.rst:33
+msgid "Currently, this does not have configuration variables."
+msgstr "現時点では、この拡張に追加の設定項目はありません。"
 

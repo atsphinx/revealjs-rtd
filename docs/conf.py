@@ -1,3 +1,5 @@
+import os
+
 from atsphinx.mini18n import get_template_dir as get_mini18n_template_dir
 from atsphinx.revealjs_rtd import __version__ as version
 
@@ -22,6 +24,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # -- Options for i18n
 gettext_compact = False
 locale_dirs = ["_locales"]
+gettext_last_translator = os.environ.get("SPHINXINTL_TRANSLATOR", None)
 
 # -- Options for HTML output
 html_theme = "furo"
