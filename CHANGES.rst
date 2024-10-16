@@ -2,9 +2,12 @@
 Change logs
 ===========
 
-v0.0.0
+v0.1.0
 ======
 
-:date: 2024-10-17 (JST)
+:Date: 2024-10-17 (JST)
 
-Initial commit.
+Features
+--------
+
+* Provide ``rtd.js`` to toggle versioning widget of RTD.
