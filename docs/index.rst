@@ -1,6 +1,6 @@
-=====================
-atsphinx-revealjs-rtd
-=====================
+====
+Home
+====
 
 .. toctree::
    :maxdepth: 1
@@ -19,4 +19,5 @@ It will raise your motivation to manage presentation on RTD.
 Refs
 ====
 
+- `Demo(Japanese) <https://https://atsphinx-revealjs-rtd.readthedocs.io/stable/>`_
 - https://sphinx-revealjs.readthedocs.io/
