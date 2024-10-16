@@ -31,7 +31,7 @@ classifiers = [
 ]
 readme = "README.rst"
 dependencies = [
-    "sphinx",
+    "sphinx-revealjs>=3",
 ]
 
 [project.urls]
