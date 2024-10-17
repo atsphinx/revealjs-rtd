@@ -13,6 +13,15 @@ path = "src/atsphinx/revealjs_rtd/__init__.py"
 search = "version = \"{{current_version}}\""
 replace = "version = \"{{new_version}}\""
 
+[[files]]
+path = ".github/release-body.md"
+search = "Release atsphinx-revealjs-rtd v{{ current_version }}"
+replace = "Release atsphinx-revealjs-rtd v{{ new_version }}"
+
+[[files]]
+path = ".github/release-body.md"
+search = "- Changelog is https://github.com/atsphinx/revealjs-rtd/blob/v{{ current_version }}/CHANGES.rst"
+replace = "- Changelog is https://github.com/atsphinx/revealjs-rtd/blob/v{{ new_version }}/CHANGES.rst"
 
 [[files]]
 path = "CHANGES.rst"
