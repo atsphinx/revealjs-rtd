@@ -47,6 +47,7 @@ revealjs_script_plugins = [
 ]
 revealjs_css_files = [
     "revealjs/plugin/highlight/zenburn.css",
+    "custom.css",
 ]
 revealjs_notes_from_comments = True
 
