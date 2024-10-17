@@ -23,6 +23,8 @@ language = "en"
 gettext_compact = False
 locale_dirs = ["_locales"]
 gettext_last_translator = os.environ.get("SPHINXINTL_TRANSLATOR", None)
+# extra
+site_basedir = os.environ.get("READTHEDOCS_VERSION", "") + "/"
 
 # -- Options for Revealjs output
 revealjs_html_theme = "revealjs-simple"
@@ -34,6 +36,18 @@ revealjs_script_conf = {
     "hash": True,
     "center": True,
     "transition": "slide",
+    "customcontrols": {
+        "controls": [
+            {
+                "icon": "EN",
+                "action": f"location.href = '/{site_basedir}en/';",
+            },
+            {
+                "icon": "JA",
+                "action": f"location.href = '/{site_basedir}ja/';",
+            },
+        ]
+    },
 }
 revealjs_script_plugins = [
     {
@@ -44,9 +58,14 @@ revealjs_script_plugins = [
         "name": "RevealMath",
         "src": "revealjs/plugin/math/math.js",
     },
+    {
+        "name": "RevealCustomControls",
+        "src": "https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js",
+    },
 ]
 revealjs_css_files = [
     "revealjs/plugin/highlight/zenburn.css",
+    "https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/style.css",
     "custom.css",
 ]
 revealjs_notes_from_comments = True
@@ -63,6 +82,4 @@ body {
 # atsphinx-mini18n
 mini18n_default_language = "en"
 mini18n_support_languages = ["en", "ja"]
-mini18n_basepath = ""
-if "READTHEDOCS_VERSION" in os.environ:
-    mini18n_basepath = f"/{os.environ['READTHEDOCS_VERSION']}/"
+mini18n_basepath = f"/{site_basedir}"
