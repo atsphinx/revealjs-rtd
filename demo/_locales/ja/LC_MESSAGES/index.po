@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Kazuya Takei
+# This file is distributed under the same license as the
+# atsphinx-revealjs-rtd package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: atsphinx-revealjs-rtd \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-18 03:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kazuya Takei <myself@attakei.net>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../index.rst:3
+msgid "atsphinx-revealjs-rtd"
+msgstr ""
+
+#: ../../index.rst:5
+msgid "sphinx-revealjs presentation managed on Read the Docs."
+msgstr "Read the Docs 上で管理する sphinx-revealjs製プレゼンテーション"
+
+#: ../../index.rst:8
+msgid "Features"
+msgstr "機能"
+
+#: ../../index.rst:11
+msgid "Toggle widget to switch version of document"
+msgstr "バージョン切り替えウィジェットの表示切り替え"
+
+#: ../../index.rst:13
+msgid ""
+"When you press ``D`` key, widget is toggled display put on bottom-right "
+"of page."
+msgstr ""
+"``D`` を押すごとに、スライド右下に表示されているRead the Docsから生成されたウィジェットの表示を切り替えます。"
+
+#: ../../index.rst:15
+msgid "you can hide it to read presentation with concentrately"
+msgstr "プレゼンに集中したいときに、非表示にすることが出来ます。"

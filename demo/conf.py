@@ -1,5 +1,7 @@
 """Config of demo."""
 
+import os
+
 from atsphinx.revealjs_rtd import __version__
 
 project = "atsphinx-revealjs-rtd"
@@ -10,11 +12,17 @@ release = __version__
 # -- General configuration
 extensions = [
     "rst_budoux.sphinx",
+    "atsphinx.mini18n",
     "atsphinx.revealjs_rtd",
 ]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
-language = "ja"
+language = "en"
+
+# -- Options for i18n
+gettext_compact = False
+locale_dirs = ["_locales"]
+gettext_last_translator = os.environ.get("SPHINXINTL_TRANSLATOR", None)
 
 # -- Options for Revealjs output
 revealjs_html_theme = "revealjs-simple"
@@ -39,6 +47,7 @@ revealjs_script_plugins = [
 ]
 revealjs_css_files = [
     "revealjs/plugin/highlight/zenburn.css",
+    "custom.css",
 ]
 revealjs_notes_from_comments = True
 
@@ -51,3 +60,9 @@ body {
     overflow-wrap: anywhere;
 }
 """
+# atsphinx-mini18n
+mini18n_default_language = "en"
+mini18n_support_languages = ["en", "ja"]
+mini18n_basepath = ""
+if "READTHEDOCS_VERSION" in os.environ:
+    mini18n_basepath = f"/{os.environ['READTHEDOCS_VERSION']}/"
