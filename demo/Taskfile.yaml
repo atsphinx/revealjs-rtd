@@ -3,7 +3,7 @@ version: '3'
 vars:
   # If you run bare environment or activated venv, set '' (blank string)
   # RUN_PYTHON: ''
-  SPHINX_DEFAULT_BUILD: 'mini18n-dirhtml'
+  SPHINX_DEFAULT_BUILD: 'mini18n-dirrevealjs'
   SPHINX_OPTIONS: ''
   SPHINX_LANGUAGES:
     - 'ja'

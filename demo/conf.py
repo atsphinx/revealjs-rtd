@@ -17,7 +17,12 @@ extensions = [
 ]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
-language = "ja"
+language = "en"
+
+# -- Options for i18n
+gettext_compact = False
+locale_dirs = ["_locales"]
+gettext_last_translator = os.environ.get("SPHINXINTL_TRANSLATOR", None)
 
 # -- Options for Revealjs output
 revealjs_html_theme = "revealjs-simple"
