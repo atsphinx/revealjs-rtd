@@ -2,7 +2,7 @@ version: '3'
 
 includes:
   docs: './docs'
-  demo-ja: './demo-ja'
+  demo: './demo'
 
 vars:
   # If you run bare environment or activated venv, set '' (blank string)
