@@ -2,14 +2,14 @@
 atsphinx-revealjs-rtd
 =====================
 
-Read the Docs 上で管理するsphinx-revealjs製プレゼンテーション
+sphinx-revealjs presentation managed on Read the Docs.
 
-機能
-====
+Features
+========
 
-バージョン切り替えウィジェットの表示切り替え
---------------------------------------------
+Toggle widget to switch version of document
+-------------------------------------------
 
-``D`` を押すごとに、スライド右下に表示されているRead the Docsから生成されたウィジェットの表示を切り替えます。
+When you press ``D`` key, widget is toggled display put on bottom-right of page.
 
-プレゼンに集中したいときに、非表示にすることが出来ます。
+you can hide it to read presentation with concentrately
