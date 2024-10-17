@@ -1,5 +1,7 @@
 """Config of demo."""
 
+import os
+
 from atsphinx.revealjs_rtd import __version__
 
 project = "atsphinx-revealjs-rtd"
@@ -10,6 +12,7 @@ release = __version__
 # -- General configuration
 extensions = [
     "rst_budoux.sphinx",
+    "atsphinx.mini18n",
     "atsphinx.revealjs_rtd",
 ]
 templates_path = ["_templates"]
@@ -51,3 +54,9 @@ body {
     overflow-wrap: anywhere;
 }
 """
+# atsphinx-mini18n
+mini18n_default_language = "en"
+mini18n_support_languages = ["en", "ja"]
+mini18n_basepath = ""
+if "READTHEDOCS_VERSION" in os.environ:
+    mini18n_basepath = f"/{os.environ['READTHEDOCS_VERSION']}/"
